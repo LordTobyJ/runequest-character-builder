@@ -142,6 +142,7 @@ export interface Passion {
 export interface Skill {
     id: number;
     name: string;
+    category: string;
     name_specialisation: string | null;
     magnitude: number;
 }
